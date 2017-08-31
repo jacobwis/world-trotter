@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		882EC83C1F58322300363A1B /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 882EC83B1F58322300363A1B /* MapKit.framework */; };
+		882EC83E1F5834D500363A1B /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 882EC83D1F5834D500363A1B /* README.md */; };
 		8854E0901F5599E20065F5B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8854E08F1F5599E20065F5B9 /* AppDelegate.swift */; };
 		8854E0951F5599E20065F5B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8854E0931F5599E20065F5B9 /* Main.storyboard */; };
 		8854E0971F5599E20065F5B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8854E0961F5599E20065F5B9 /* Assets.xcassets */; };
@@ -36,6 +37,7 @@
 
 /* Begin PBXFileReference section */
 		882EC83B1F58322300363A1B /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		882EC83D1F5834D500363A1B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		8854E08C1F5599E20065F5B9 /* WorldTrotter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WorldTrotter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8854E08F1F5599E20065F5B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8854E0941F5599E20065F5B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -88,6 +90,7 @@
 		8854E0831F5599E20065F5B9 = {
 			isa = PBXGroup;
 			children = (
+				882EC83D1F5834D500363A1B /* README.md */,
 				8854E08E1F5599E20065F5B9 /* WorldTrotter */,
 				8854E0A31F5599E20065F5B9 /* WorldTrotterTests */,
 				8854E0AE1F5599E20065F5B9 /* WorldTrotterUITests */,
@@ -271,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				882EC83E1F5834D500363A1B /* README.md in Sources */,
 				8854E0BE1F55A34C0065F5B9 /* ConversionViewController.swift in Sources */,
 				8854E0901F5599E20065F5B9 /* AppDelegate.swift in Sources */,
 			);
